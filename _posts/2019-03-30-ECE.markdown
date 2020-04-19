@@ -9,7 +9,7 @@ affiliation: UCLA, ECE 239AS
 authors: "Andrew Ehrenberg"
 venue: "Course"
 code: https://github.com/andyehrenberg/GAN-Image-Colorization
-arxiv: https://github.com/andyehrenberg/andyehrenberg.github.io/blob/master/images/ECE_Paper.pdf
+arxiv: images/ECE_Paper.pdf
 equal: '*'
 
 ---
