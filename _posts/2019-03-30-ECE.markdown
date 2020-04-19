@@ -3,7 +3,7 @@ permalink: /colorize/
 layout: post
 title:  "Image Colorization with Generative Adversarial Networks"
 date:   2019-03-30 11:10:11 -0800
-image: 
+image: images/Colorize.png
 categories: research
 affiliation: UCLA, ECE 239AS
 authors: "Andrew Ehrenberg"
