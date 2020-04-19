@@ -6,12 +6,15 @@ date:   2019-03-30 11:10:11 -0800
 image: 
 categories: research
 affiliation: UCLA, ECE 239AS
-authors: "<b>Andrew Ehrenberg</b>
+authors: "Andrew Ehrenberg"
 venue: "Course"
 code: https://github.com/andyehrenberg/GAN-Image-Colorization
 arxiv: images/ECE_Paper.pdf
 equal: '*'
 
 ---
+
+This was my final project for a graduate course at UCLA on Deep Learning taught by Jonathan Kao. This project connects to my current interest in Self-Supervised Learning, as image colorization has been shown to be a
+pretext task to find useful representations for downstream tasks.
 
 Various Generative Adversarial Network architectures are compared in their performance of realistically adding color to greyscale images. Challenges regarding training these and future techniques for improvement are discussed.
