@@ -1,0 +1,62 @@
+---
+layout: post
+---
+<!doctype html>
+<html>
+
+<head>
+    <title>{{ page.title }}</title>
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
+</head>
+
+<body>
+    <table
+        style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:10%">
+        <tr style="padding:0px">
+        <td style="padding:0px">
+            <!--<nav>
+                <a href="/"> <<< Back </a>
+            </nav>-->
+        <h1 style="font-size:40px"> {{page.title}}</h1>
+        <center><h2 style="font-size:20px"> {{page.authors}}</h2></center>
+        {% if page.equal %} <center><p>* Equal contribution</p></center> {% endif %}
+        <center><h2>{{page.affiliation}}</h2></center>
+
+        <center>
+            <p>
+                {% if page.code %}<a  style="font-size:25px" target='_blank' href="{{page.code}}">[Github Code]</a>{% endif %} 
+                {% if page.arxiv %}<a style="font-size:25px" target='_blank' href="{{page.arxiv}}">[Paper]</a>{% endif %}
+            </p>
+        </center>
+      
+        
+        <p>
+            <h2>Overview</h2> {{page.excerpt}}
+        </p>
+        <center>
+                {% if page.video %}<iframe src="{{page.video}}"
+                width="560" height="315" frameborder="0" allowfullscreen></iframe>
+              {% endif %} 
+        </center>
+        <p>
+            <h2>Abstract</h2>
+            {{ page.content | remove: page.excerpt }}
+        </p>
+        
+
+        </td>
+        </tr>
+    </table>
+</body>
+
+</html>
