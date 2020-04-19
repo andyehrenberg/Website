@@ -6,7 +6,7 @@ date:   2019-03-30 11:10:11 -0800
 image: 
 categories: research
 affiliation: UCLA, ECE 239AS
-authors: "<b>Andrew Ehrenberg</b>
+authors: "Andrew Ehrenberg"
 venue: "Course"
 code: https://github.com/andyehrenberg/GAN-Image-Colorization
 arxiv: images/ECE_Paper.pdf
