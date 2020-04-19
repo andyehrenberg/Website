@@ -18,6 +18,3 @@ This was my final project for a graduate course at UCLA on Deep Learning taught 
 pretext task to find useful representations for downstream tasks.
 
 Various Generative Adversarial Network architectures are compared in their performance of realistically adding color to greyscale images. Challenges regarding training these and future techniques for improvement are discussed.
-
-
-
