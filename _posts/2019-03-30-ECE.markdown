@@ -1,0 +1,17 @@
+---
+permalink: /colorize/
+layout: post
+title:  "Image Colorization with Generative Adversarial Networks"
+date:   2019-03-30 11:10:11 -0800
+image: 
+categories: research
+affiliation: UCLA, ECE 239AS
+authors: "<b>Andrew Ehrenberg</b>
+venue: "Course"
+code: https://github.com/andyehrenberg/GAN-Image-Colorization
+arxiv: 
+equal: '*'
+
+---
+
+Various Generative Adversarial Network architectures are compared in their performance of realistically adding color to greyscale images. Challenges regarding training these and future techniques for improvement are discussed.
