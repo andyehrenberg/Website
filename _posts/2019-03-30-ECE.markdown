@@ -14,10 +14,10 @@ equal: '*'
 
 ---
 
-This was my final project for a graduate course at UCLA on Deep Learning taught by Jonathan Kao.
+This was my final project for a graduate course at UCLA on Deep Learning taught by Jonathan Kao. This project connects to my current interest in Self-Supervised Learning, as image colorization has been shown to be a
+pretext task to find useful representations for downstream tasks.
 
 Various Generative Adversarial Network architectures are compared in their performance of realistically adding color to greyscale images. Challenges regarding training these and future techniques for improvement are discussed.
 
-This project connects to my current interest in Self-Supervised Learning, as image colorization has been shown to be a
-pretext task to find useful representations for downstream tasks.
+
 
